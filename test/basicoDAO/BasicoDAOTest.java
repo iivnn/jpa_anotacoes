@@ -37,6 +37,7 @@ public class BasicoDAOTest {
         embutidos.get(2).setInteiroEmbutido(3);
         embutidos.get(2).setStringEmbutida("Sou o terceiro");
         
+        
         strings.add("primeira string");
         strings.add("segunda string");
         strings.add("terceira string");
