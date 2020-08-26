@@ -1,4 +1,4 @@
-package connection;
+package CONNECTION;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
