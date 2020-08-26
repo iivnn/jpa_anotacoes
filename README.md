@@ -2,7 +2,7 @@
 
 Exemplo prático do uso de jpa annotations para persistência em banco de dados utilizando frameworks de ORM. Nesse projeto utilizei o framework Hibernate https://hibernate.org/ 
 
-*Pré-requisitos:
+**Pré-requisitos:
 
 //Programação Orientada a objetos em Java -> Você pode aprender mais sobre poo em java estudando pela playlist https://www.youtube.com/watch?v=KlIL63MeyMY&list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY
 
