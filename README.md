@@ -29,4 +29,9 @@ https://www.youtube.com/watch?v=snOXxJa31GI
  <b>Framework Hibernate </b> -> Você pode aprender mais sobre hibernate estudando pela playlist 
 https://www.youtube.com/watch?v=398Ul6wq5U4&list=PLWd_VnthxxLecV572IBOKhJhg-k1HkisY
 
+<h2>O básico</h2>
+
+Um exemplo prático para conhecer as principais anotações do jpa para começar a persisitir suas classes com hibernate em um banco de dados
+https://github.com/iivnn/jpa_anotacoes/tree/master/src/basico
+
 
