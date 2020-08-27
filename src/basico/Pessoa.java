@@ -106,7 +106,10 @@ public class Pessoa implements Serializable { // Obs: A classe deve implementar 
      * Permite persistir elementos de uma coleção de tipo básico, ou embeddable,
      * em uma tabela separada;
      * https://docs.jboss.org/hibernate/orm/5.3/userguide/html_single/Hibernate_User_Guide.html#collections
-     * 
+     * obs: é aconselhável não utilizar o @ElementCollection, criar uma entidade
+     * separada neste caso  é melhor por facilitar
+     * na hora de criar o DAO "data access object", diminuindo a quantidade de 
+     * código  e complexidade do código;
      * 
      */
    
