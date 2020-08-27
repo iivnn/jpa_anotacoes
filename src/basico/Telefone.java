@@ -1,17 +1,14 @@
 package basico;
 
 import java.io.Serializable;
-import javax.persistence.Access;
-import javax.persistence.AccessType;
 import javax.persistence.Embeddable;
 
 /**
  *
- * @author ivan
+ * @author iivnn
  */
 
-@Embeddable 
-@Access(AccessType.FIELD)
+@Embeddable
 public class Telefone implements Serializable {
     
     private String tipo;
@@ -35,6 +32,13 @@ public class Telefone implements Serializable {
     public void setNumero(int numero) {
         this.numero = numero;
     }
+
+    @Override
+    public String toString() {
+        return "Telefone{" + "tipo=" + tipo + ", numero=" + numero + '}';
+    }
+    
+    
     
     
 }

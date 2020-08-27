@@ -20,9 +20,8 @@ public class ConnectionFactory {
         
     }
     
-    public void closeConnection(EntityManager em){
+    public void closeConnection(){
         
-        em.close();
         emf.close();
         
     }

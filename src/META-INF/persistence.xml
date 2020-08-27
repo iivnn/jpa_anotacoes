@@ -5,10 +5,11 @@
     <!-- Implementação do JPA -->
     <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
     <!-- Lista de entidades -->
+    <class>basico.Pessoa</class>
     <properties>
       <!-- Propriedades JDBC -->
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/jpaAnotations"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/anotationsjpa"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
       <property name="javax.persistence.jdbc.password" value=""/>
       <!-- Configurações específicas do Hibernate -->

@@ -5,8 +5,6 @@ import java.util.List;
 import javax.persistence.Access;
 import javax.persistence.AccessType;
 import javax.persistence.Basic;
-import javax.persistence.CollectionTable;
-import javax.persistence.Column;
 import javax.persistence.ElementCollection;
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
@@ -99,7 +97,7 @@ public class Pessoa implements Serializable { // Obs: A classe deve implementar 
      * 
      */
     
-    private String desc;
+    private String descricao;
     
     @ElementCollection
     /**
@@ -111,8 +109,7 @@ public class Pessoa implements Serializable { // Obs: A classe deve implementar 
      * 
      * 
      */
-    @CollectionTable(name="apelidos_pessoa") // Permite alterar o nome da nova tabela;
-    @Column(name="apelido") // Permite alterar o nome da coluna;
+   
     
     private List<String> apelidos;
     
@@ -129,7 +126,6 @@ public class Pessoa implements Serializable { // Obs: A classe deve implementar 
     private Endereco endereco;
     
     @ElementCollection // Exemplo com @Embeddable;
-    
     private List<Telefone> telefones;
 
     
@@ -166,13 +162,13 @@ public class Pessoa implements Serializable { // Obs: A classe deve implementar 
      * 
      */
      
-    public String getDesc() {
-        return desc == null ? "" : desc.toUpperCase();
+    public String getDescricao() {
+        return descricao == null ? "" : descricao.toUpperCase();
         //obs: caso omita o @Transient no atributo "desc" será criado duas colunas para o mesmo valor;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc;
+    public void setDescricao(String desc) {
+        this.descricao = desc;
     }
 
     public List<String> getApelidos() {
@@ -198,5 +194,6 @@ public class Pessoa implements Serializable { // Obs: A classe deve implementar 
     public void setTelefones(List<Telefone> telefones) {
         this.telefones = telefones;
     } 
+
     
 }

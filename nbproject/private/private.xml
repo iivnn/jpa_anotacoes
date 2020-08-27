@@ -3,7 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/ivan/Documents/NetBeansProjects/jpa_anotacoes/test/basicoDAO/BasicoDAOTest.java</file>
+            <file>file:/C:/Users/ivan/Documents/NetBeansProjects/jpa_anotacoes/src/basico/Pessoa.java</file>
+            <file>file:/C:/Users/ivan/Documents/NetBeansProjects/jpa_anotacoes/src/CONNECTION/ConnectionFactory.java</file>
+            <file>file:/C:/Users/ivan/Documents/NetBeansProjects/jpa_anotacoes/src/META-INF/persistence.xml</file>
+            <file>file:/C:/Users/ivan/Documents/NetBeansProjects/jpa_anotacoes/src/basico/PessoaDAO.java</file>
+            <file>file:/C:/Users/ivan/Documents/NetBeansProjects/jpa_anotacoes/src/basico/Endereco.java</file>
+            <file>file:/C:/Users/ivan/Documents/NetBeansProjects/jpa_anotacoes/src/basico/Telefone.java</file>
         </group>
     </open-files>
 </project-private>

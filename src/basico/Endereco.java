@@ -8,7 +8,7 @@ import javax.persistence.Embeddable;
 
 /**
  *
- * @author ivan
+ * @author iivnn
  */
 
 @Embeddable
@@ -66,6 +66,12 @@ public class Endereco implements Serializable {
     public void setPais(String pais) {
         this.pais = pais;
     }
+
+    @Override
+    public String toString() {
+        return "Endereco{" + "rua=" + rua + ", numero=" + numero + ", cidade=" + cidade + ", pais=" + pais + '}';
+    }
+    
     
     
 }
