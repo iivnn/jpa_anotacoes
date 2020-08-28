@@ -130,8 +130,8 @@ public class Pessoa implements Serializable { // Obs: A classe deve implementar 
     
     @ElementCollection // Exemplo com @Embeddable;
     private List<Telefone> telefones;
-
     
+
     //Métodos da classe;
     
     public Pessoa() { //Construtor sem parâmetros;
