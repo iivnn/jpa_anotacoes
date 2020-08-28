@@ -36,5 +36,5 @@ https://github.com/iivnn/jpa_anotacoes/tree/master/src/basico
 
 <h2>Exemplos na prática</h2>
 
-<li><a href="https://github.com/iivnn/jpa_anotacoes/tree/master/src/exemplos">Aqui</a></li> você encontra exemplos práticos com classes simples para mostrar o uso de outras anotações da jpa para facilitar sua vida na hora de criar seu banco de dados.
+<a href="https://github.com/iivnn/jpa_anotacoes/tree/master/src/exemplos">Aqui</a> você encontra exemplos práticos com classes simples para mostrar o uso de outras anotações da jpa para facilitar sua vida na hora de criar seu banco de dados.
 
