@@ -1,9 +1,5 @@
 package exemplos.data;
 
-
-
-
-
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -41,7 +37,7 @@ public class DatasDAOTest {
         
         data.setTimestampTime(LocalDateTime.now());
         
-        data.setTimeTime(LocalTime.now(ZoneId.of("UTC+9")));
+        data.setTimeTime(LocalTime.now(ZoneId.of("UTC+9")));//horario do japão;
         
         data = DatasDAO.save(data);
         
@@ -50,10 +46,7 @@ public class DatasDAOTest {
         }catch(NullPointerException npex){
             System.err.println("////erro: " + npex);
         }
-        
-        
-        
-        
+          
     }
     
 }

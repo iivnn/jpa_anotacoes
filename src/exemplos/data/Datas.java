@@ -39,6 +39,9 @@ public class Datas implements Serializable {
      * não precisam ser mapeadas. Exemplo das datas sendo instanciadas no pacote
      * de testes em test/exemplos/data/DatasDAOTest.java;
      * 
+     * obs: talvez seja mais inteligente salvar uma data como um atributo do 
+     * tipo "Long" no banco de dados e mudar para "Date" na aplicação que 
+     * estiver tratando com este dado;
      * 
      */
     private java.util.Date dateUtil;
@@ -135,11 +138,4 @@ public class Datas implements Serializable {
                 timestampTime.toString() + '}';
     }
 
-    
-    
-    
-    
-    
-  
-    
 }
