@@ -31,8 +31,8 @@ https://www.youtube.com/watch?v=398Ul6wq5U4&list=PLWd_VnthxxLecV572IBOKhJhg-k1Hk
 
 <h2>O básico</h2>
 
-Um exemplo prático para conhecer as principais anotações do jpa para começar a persisitir suas classes com hibernate em um banco de dados
-https://github.com/iivnn/jpa_anotacoes/tree/master/src/basico
+Um<a href="https://github.com/iivnn/jpa_anotacoes/tree/master/src/basico"> exemplo prático</a> para conhecer as principais anotações do jpa para começar a persisitir suas classes com hibernate em um banco de dados
+
 
 <h2>Exemplos na prática</h2>
 
