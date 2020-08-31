@@ -1,9 +1,11 @@
-package exemplos.data;
+package exemplos.datas_e_horas;
 
 import java.io.Serializable;
+import java.sql.Timestamp;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -59,6 +61,10 @@ public class Datas implements Serializable {
     private java.time.LocalTime timeTime;
     
     private java.time.LocalDateTime timestampTime;
+    
+    //Exemplo onde o banco de dados insere a data atual;
+    @Column(name = "timestamp", nullable = false, updatable = false, insertable = false, columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
+    private Timestamp timeStampExample;
 
     public Datas(){
         
@@ -137,5 +143,15 @@ public class Datas implements Serializable {
                 timeTime.toString() + ", timestampTime=" + 
                 timestampTime.toString() + '}';
     }
+
+    public Timestamp getTimeStampExample() {
+        return timeStampExample;
+    }
+
+    public void setTimeStampExample(Timestamp timeStampExample) {
+        this.timeStampExample = timeStampExample;
+    }
+    
+    
 
 }

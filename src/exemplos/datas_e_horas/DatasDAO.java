@@ -1,4 +1,4 @@
-package exemplos.data;
+package exemplos.datas_e_horas;
 
 import CONNECTION.ConnectionFactory;
 import javax.persistence.EntityManager;
