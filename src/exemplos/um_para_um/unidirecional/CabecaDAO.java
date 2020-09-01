@@ -1,4 +1,4 @@
-package exemplos.um_para_muitos.bidirecional;
+package exemplos.um_para_um.unidirecional;
 
 import CONNECTION.ConnectionFactory;
 import javax.persistence.EntityManager;
@@ -7,21 +7,20 @@ import javax.persistence.EntityManager;
  *
  * @author iivnn
  */
-
-public class UsuarioDAO {
+public class CabecaDAO {
     private static final ConnectionFactory cf = new ConnectionFactory();
     private static EntityManager em;
     
     
-    public static Usuario save(Usuario user){
+    public static Cabeca save(Cabeca cabeca){
         em = cf.getConnection();
         em.getTransaction().begin();
         
         try{
-            if (user.getId() == null) {
-                em.persist(user);
+            if (cabeca.getId() == null) {
+                em.persist(cabeca);
             } else {
-                em.merge(user);
+                em.merge(cabeca);
             }
             em.getTransaction().commit();
         }catch(Exception ex){
@@ -32,7 +31,7 @@ public class UsuarioDAO {
             close();
         }
         
-      return user;
+      return cabeca;
       
     }
     
